@@ -8,6 +8,8 @@ cd $1
 pwd
 curl -L https://github.com/daticahealth/cli/releases/download/${VERSION}/datica_${VERSION}_linux_amd64.tar.gz -o datica.tgz
 mkdir -p bin/
+ls
 tar -C bin/ -xvf datica.tgz
-mv bin/datica_${VERSION}_linux_amd64/datica bin/
-rm -r bin/datica_${VERSION}_linux_amd64/
+ls bin/
+#mv bin/datica_${VERSION}_linux_amd64/datica bin/
+#rm -r bin/datica_${VERSION}_linux_amd64/
