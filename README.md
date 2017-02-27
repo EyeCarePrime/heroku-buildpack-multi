@@ -1,6 +1,8 @@
-# Deprecated
+# BuildPack for Redeploy App
 
-This project is deprecated and is no longer being maintained.
+
+This needs to be publicly accessible URL.
+
 
 Please fork it to your own account and update your `BUILDPACK_URL`
 
